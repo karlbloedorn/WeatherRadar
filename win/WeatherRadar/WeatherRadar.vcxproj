@@ -78,11 +78,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\Main.cpp" />
+    <ClCompile Include="..\..\src\Rendering.cpp" />
     <ClCompile Include="..\..\src\Scan.cpp" />
     <ClCompile Include="..\..\src\Shader.cpp" />
     <ClCompile Include="..\..\src\Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\src\Rendering.hpp" />
     <ClInclude Include="..\..\src\Scan.hpp" />
     <ClInclude Include="..\..\src\Shader.hpp" />
     <ClInclude Include="..\..\src\Texture.hpp" />
